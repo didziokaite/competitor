@@ -1,0 +1,20 @@
+---
+description: Enforce concise weekly summary and action outputs
+globs:
+  - "**/*.md"
+alwaysApply: true
+---
+
+# Weekly Summary and Action Rules
+
+- Produce a weekly summary suitable for a 15-minute stakeholder call.
+- Include:
+  - One-sentence executive takeaway
+  - Top 3 ranked strategic moves
+  - Action tracker with owner, action, and due date
+  - Medium-priority watchlist
+- For each high-priority finding, define both:
+  - Marketing action
+  - Sales enablement action
+- Actions must be specific, assignable, and time-bounded.
+- Keep summary concise and decision-ready.
