@@ -1,0 +1,18 @@
+---
+description: Enforce evidence-backed competitor findings
+globs:
+  - "**/*.md"
+alwaysApply: true
+---
+
+# Evidence and Fact Discipline
+
+- Report facts only. Avoid speculation or inferred intent.
+- Every finding must include:
+  - Source URL
+  - Observation date
+  - Specific supporting excerpt or numeric proof
+  - Confidence level
+- If evidence is incomplete, mark as Unverified and exclude from top strategic moves.
+- Prefer primary sources over third-party summaries.
+- Keep wording neutral, precise, and commercially relevant.

@@ -1,0 +1,21 @@
+---
+description: Enforce weighted scoring for competitor signals
+globs:
+  - "**/*.md"
+alwaysApply: true
+---
+
+# Priority Scoring Rules
+
+- Score each validated finding on a 0-100 scale using weighted factors:
+  - Strategic relevance (30)
+  - Commercial impact (25)
+  - Evidence quality (20)
+  - Competitive urgency (15)
+  - 30-day actionability (10)
+- Apply priority bands:
+  - 80-100: High
+  - 60-79: Medium
+  - 0-59: Low
+- Rank findings by score and present top 3 strategic moves only.
+- Archive low-priority noise unless repeated patterns emerge.
